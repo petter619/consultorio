@@ -1,5 +1,5 @@
 {
-  "name": "consultorio",
+  "name": "consultorio-dental",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -10,9 +10,9 @@
   },
   "dependencies": {
     "@prisma/client": "^6.4.1",
-    "next": "^14.0.0",  // Usar la última versión estable de Next.js
+    "next": "^14.0.0",
     "pg": "^8.13.3",
-    "react": "^18.2.0",  // Usar la última versión estable de React
+    "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "sequelize": "^6.37.5",
     "sqlite3": "^5.1.7"
@@ -25,4 +25,3 @@
     "tailwindcss": "^4",
     "typescript": "^5"
   }
-}
