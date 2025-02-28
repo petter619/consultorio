@@ -10,10 +10,10 @@
   },
   "dependencies": {
     "@prisma/client": "^6.4.1",
-    "next": "15.2.0",
+    "next": "^14.0.0",  // Usar la última versión estable de Next.js
     "pg": "^8.13.3",
-    "react": "^19.0.0",
-    "react-dom": "^19.0.0",
+    "react": "^18.2.0",  // Usar la última versión estable de React
+    "react-dom": "^18.2.0",
     "sequelize": "^6.37.5",
     "sqlite3": "^5.1.7"
   },
@@ -24,9 +24,5 @@
     "@types/react-dom": "^19",
     "tailwindcss": "^4",
     "typescript": "^5"
-  }
-  "scripts": {
-  "start": "next start",
-  "build": "next build"
   }
 }
